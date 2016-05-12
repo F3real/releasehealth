@@ -23,16 +23,8 @@ body {
   border-bottom: 50px solid transparent;
 }
 
-.header-bg-release, .header-bg-beta {
+.header-bg-release {
   border-right: 100vw solid #FF9500;
-}
-
-.header-bg-aurora {
-  border-right: 100vw solid #00539F;
-}
-
-.header-bg-nightly {
-  border-right: 100vw solid #002147;
 }
 
 .header div {
@@ -55,26 +47,7 @@ body {
 #content {
   height: 67vh;
   padding-top: 3vh;
-  text-align: center;
-}
-
-.bugcount {
-  display: inline-block;
-  padding: 3vw;
-}
-
-.bugcount h2 {
-  font-size: 3vw;
-  font-weight: inherit;
-  width: 12ch;
-}
-.bugcount .data {
-  font-size: 10vw;
-  display: inline-block;
-}
-
-.greyedout {
-  color: #D4DDE4;
+  text-align: left;
 }
 
 a {
@@ -86,34 +59,13 @@ a:hover {
   color: highlight;
 }
 
-#footer {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  left: 0px;
-  height: 4vh;
-  padding-top: 2vh;
-  font-family: Moz;
-  font-size: 2vmin;
-  text-align: center;
+table
+{
+    border-collapse: separate;
+    empty-cells: hide;
 }
 
-#footer a{
-  padding-top: 1vmin;
-  padding-left: 3vmin;
-  padding-right: 3vmin;
-}
-
-.footer-release, .footer-beta {
-  background-color: #FF9500;
-}
-
-.footer-aurora {
-  background-color: #00539F;
-  color: #EAEFF2;
-}
-
-.footer-nightly {
-  background-color: #002147;
-  color: #EAEFF2;
+td{
+  vertical-align:top;
+  border: 1px solid black;
 }

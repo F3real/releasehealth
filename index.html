@@ -4,7 +4,6 @@
     <meta charset="utf-8"/>
     <title>Buildbot builders status</title>
     <link rel="stylesheet" type="text/css" href="css/releasehealth.css">
-    <link rel="stylesheet" type="text/css" href="css/forkongithub.css">
     <script src="js/libs/jquery-1.12.3.min.js"></script>
     <script src="js/libs/purl-2.3.1/purl.js"></script>
     <script src="js/releasehealth.js"></script>
@@ -16,9 +15,12 @@
       <div id="subtitle" class="subtitle">Buildbot builders that have not migrated.</div>
     </div>
     <div id="content">
-      <div class="bugcount" id="blockingDiv"></div>
-      <div class="bugcount" id="newRegressionDiv"></div>
-      <div class="bugcount" id="knowRegressionDiv"></div>
+      <table>
+        <tr>
+          <td id="platforms"></td>
+          <td id="builders"></td>
+        </tr>
+     </table>
     </div>
   </body>
 </html>
